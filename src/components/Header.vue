@@ -2,10 +2,11 @@
   <div class="header">
     <div class="nav-bar">
       <router-link to="/">About me</router-link>
-      <router-link to="/game-projects">Stuff</router-link>
-      <router-link to="/other-projects">Other stuff</router-link>
-      <router-link to="/resume">Resume</router-link>
-      <router-link to="/contact">Contact</router-link>
+      <router-link to="/game-projects">Casual Games</router-link>
+      <router-link to="/music-games">Music Games</router-link>
+      <router-link to="/game-tools">Tools and templates</router-link>
+      <router-link to="/leisure-study">self-study</router-link>
+      <router-link to="/other-projects">Other</router-link>
     </div>
   </div>
 </template>

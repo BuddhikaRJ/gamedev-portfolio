@@ -38,7 +38,22 @@ const routes: Array<RouteConfig> = [
   {
     path: '*',
     redirect: '/404'
-  }
+  },
+  {
+    path: '/leisure-study',
+    name: 'Leisure & Self study',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Study.vue')
+  },
+  {
+    path: '/game-tools',
+    name: 'Game Developer Tools',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameTools.vue')
+  },
+  {
+    path: '/music-games',
+    name: 'Music Games',
+    component: () => import(/* webpackChunkName: "about" */ '../views/MusicGameProjects.vue')
+  },
 ]
 
 const router = new VueRouter({
