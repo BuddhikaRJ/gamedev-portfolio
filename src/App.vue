@@ -45,6 +45,16 @@ html, body {
   background-color: @bodyBgColor;
 }
 
+body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
 #app {
   background-color: @contentBgColor;
   color: @textColor;
